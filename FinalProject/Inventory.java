@@ -3,9 +3,9 @@ import java.util.ArrayList;
 public class Inventory {
     public ArrayList<Item> items = new ArrayList<>();
     public ArrayList<Order> orders = new ArrayList<>();
-    
-    public Inventory() {
 
+    public Inventory() {
+        
     }
 
     public void addToInventory(Item items) {
@@ -15,7 +15,7 @@ public class Inventory {
 
     public String getInventory() {
 
-        return items.toString();
+        return this.items.toString();
     }
 
     public void addOrders(Order orders) {
@@ -27,10 +27,9 @@ public class Inventory {
 
         return orders.toString();
     }
-
-
     @Override
     public String toString() {
         return items.toString();
     }
+
 }

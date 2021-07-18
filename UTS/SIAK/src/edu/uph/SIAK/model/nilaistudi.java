@@ -25,11 +25,7 @@ public class nilaistudi {
     }
 
     public double getNilaiHuruf() {
-        if (this.nilaiHuruf == 'A') return 4;
-        if (this.nilaiHuruf == 'B') return 3;
-        if (this.nilaiHuruf == 'C') return 2;
-        if (this.nilaiHuruf == 'D') return 1;
-        return 0;
+        return this.nilaiHuruf;
     }
 
     public double getNilaiAngka() {
